@@ -1,0 +1,16 @@
+header{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+   
+}
+li.active a{
+    color: red;
+}
+
+.app_home header{
+    background-color: green;
+}
+.app_about header{
+    background-color: red;
+}

@@ -1,0 +1,23 @@
+<header>
+    <h1>{{project.name}}</h1>
+</header>
+
+<nav>
+    <ul>
+        <li class="{{set_active_route('app_home')}}">
+            <a href="{{path('app_home')}}">
+                Home
+            </a>
+        </li>
+        <li class="{{set_active_route('app_about')}}">
+            <a href="{{path('app_about')}}">
+                About
+            </a>
+        </li>
+        <li class="{{set_active_route('app_contact')}}">
+            <a href="{{path('app_contact')}}">
+                Contact
+            </a>
+        </li>
+    </ul>
+</nav>

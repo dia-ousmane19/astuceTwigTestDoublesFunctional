@@ -1,0 +1,8 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    # On peut ajouter autant de variable global que l'on souhaite
+    globals:
+        project:
+            name: 'App'
+            email: 'ousmanedia846@gmail.com'
+           

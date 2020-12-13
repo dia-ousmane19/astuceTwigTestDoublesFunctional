@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> {{page_title(title ?? null)}}</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+</head>
+
+<body class="{{app.request.attributes.get('_route')}}">
+    {% include "partials/_partials/header.html.twig" %}
+   
+
+    <main role="main">
+        {% block body %}{% endblock %}
+    </main>
+
+
+    {% block javascripts %}{% endblock %}
+</body>
+
+</html>
